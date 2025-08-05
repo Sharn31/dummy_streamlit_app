@@ -7,3 +7,11 @@ st.subheader("Project")
 
 st.markdown("""
             Welcome to Data Science""")
+
+selected_country = st.selectbox(
+    "Select any values",
+
+    ["India","Russia"]
+)
+
+st.write(selected_country)
